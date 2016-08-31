@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			h1 {
+			  color: #BD2C00;
+			  font-size: 1.5em;
+			  margin: 0;
+			}
+			h2 {
+			  font-size: 1.3em;
+			  margin: 5px 0;
+			  color: rgb(40,40,40);
+			}
+			ul {
+				background-color: #56b4ef;
+				background-image: linear-gradient(to top, #56b4ef,#148eda);
+				float: left;
+				list-style: none;
+				margin: 0 10px 0 0;
+				padding: 0;
+				width: 280px;
+				border: 1px solid rgba(0,0,0,0.3);
+				border-radius: 5px;
+			}
+			.livro {
+				font-family: Helvetica, Arial, Sans-serif;
+				margin: 0 10%;
+				padding: 10px;
+				background-color: #fafafa;
+				background-image: linear-gradient(#fafafa,#eee);
+				border-radius: 5px;
+				border: 1px solid #ccc;
+				width: 630px;
+				display: flex;
+			}
+			.disponivel {
+				background-color: #6cc644;
+				border-radius: 3px;
+				color: rgb(250,250,250);
+				font-size: 1.1em;
+				font-weight: bold;
+				padding: 3px 7px;
+				text-shadow: 0 1px 2px rgba(0,0,0,0.7);
+				width: 100px;
+			}
+			.icone {
+				color: rgb(250,250,250);
+				display: block;
+				font-size: 1.1em;
+				font-weight: bold;
+				padding: 5px;
+				text-decoration: none;
+				text-shadow: 0 1px 0 rgba(0,0,0,0.9);
+				border-bottom: 1px solid rgba(0,0,0,0.3);
+				border-top: 1px solid rgba(255,255,255,0.3);
+			}
+			.icone:hover {
+				background-color: rgba(0,0,0,0.1);
+			}
+			.icone.papel {
+				border-top: none;
+			}
+			.icone.pacote {
+				border-bottom: none;
+			}
+		</style>
+	</head>
+	<body>
+		<article class="livro">
+		  <header>
+		    <h1>Ruby on Rails: coloque sua aplicação web nos trilhos</h1>
+		    <h2>Vinicius Baggio</h2>
+		    <p class="disponivel">Disponível</p>
+		    <ul>
+		    	<li><a class="icone papel" href="#">Comprar a versão física</a></li>
+		    	<li><a class="icone digital" href="#">Comprar a versão digital</a></li>
+		    	<li><a class="icone pacote" href="#">Comprar o pacote completo!</a></li>
+		    </ul>
+		    <p class="direita">
+			  Uma ótima leitura para iniciantes afim de se aventurar no ecossistema de Ruby.
+			</p>
+		  </header>
+		</article>
+	</body>
+</html>
