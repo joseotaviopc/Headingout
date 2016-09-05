@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, Sans-serif;
+	background: rgba(0, 0, 0, 0.05);
+}
+
+p {
+	padding-left: 40px;
+    color: #aaa;
+    font-size: 0.8em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 2em;
+}
+
+main p {
+	padding-left: 20px;
+	padding-bottom: 3em;
+}
+
+h1 {
+	padding-left: 40px;
+    padding-top: 1em;
+    color: #fff;
+    text-transform: uppercase;
+	font-size: 2.6em;
+	font-weight: 400;
+	letter-spacing: 0.1px;
+	text-shadow: 2px 2px 4px rgb(0,0,0);
+}
+
+footer {
+	position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #fff;
+}
+
+ul {
+	list-style: none;
+	padding: 20px 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+li {
+	flex: 0 1 auto;
+	display: flex;
+	align-items: center;
+}
+
+button {
+	margin-left: 40px;
+    margin-top: 40px;
+    padding: 5px 10px;
+    font-size: 0.7em;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+a {	
+	cursor: auto;
+	text-decoration: none;
+	margin: 0 1px;
+}
+
+a:hover {
+	background: #999;
+	border-radius: 50%;
+}
+
+.home {
+	background: url("jaqueta.png") -80px 0px no-repeat, linear-gradient(to bottom, rgba(255,255,255,1), rgba(0,0,0,0.5));
+    background-size: cover;
+    padding-bottom: 25%;
+}
+
+.page2 {
+	padding: 30px 20px 20px 0px;
+	font-family: Georgia, Times, serif;
+}
+
+.parag1::first-letter {
+	font-size: 5em;
+	float: left;
+	margin: 16px 10px 10px 10px;
+}
+.nome {
+	padding-top: 200px;
+	color: #fff;
+    text-transform: uppercase;
+}
+
+.bola {
+	width: 14px;
+	height: 14px;
+	border: 1px solid #999;
+	border-radius: 50%;
+	flex: 0 1 auto;
+}
+
+.preta {
+	background-color: #000;
+}
+
+.centro {
+	text-align: center;
+}
+
+.direita {
+	text-align: right;
+}
